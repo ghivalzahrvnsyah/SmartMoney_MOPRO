@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SmartMoney</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tentang_aplikasi">Tentang Aplikasi
+        \nSmartMoney adalah aplikasi untuk mengatur dan mencatat keuangan pribadi, seperti pemasukan dan pengeluaran.\n
+        https://github.com/ghivalzahrvnsyah
+    </string>
 </resources>
