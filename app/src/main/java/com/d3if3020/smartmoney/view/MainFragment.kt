@@ -32,6 +32,7 @@ class MainFragment : Fragment() {
         val pagerAdapter = FragmentAdapter(childFragmentManager)
         pagerAdapter.addFragment(PemasukanFragment(), "Pemasukan")
         pagerAdapter.addFragment(PengeluaranFragment(), "Pengeluaran")
+        pagerAdapter.addFragment(BankListFragment(), "Bank List")
 
         // Set the adapter to the ViewPager
         viewPager.adapter = pagerAdapter
