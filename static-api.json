@@ -1,0 +1,62 @@
+[
+    {
+      "bankName": "Bank Mandiri",
+      "bankTelp": "(021) 52997777",
+      "bankWebsite": "https://www.bankmandiri.co.id",
+      "bankLogo": "mandiri"
+    },
+    {
+      "bankName": "Bank Rakyat Indonesia (BRI)",
+      "bankTelp": "(021) 2510244",
+      "bankWebsite": "https://www.bri.co.id",
+      "bankLogo": "Bank Rakyat Indonesia"
+    },
+    {
+      "bankName": "Bank Central Asia (BCA)",
+      "bankTelp": "(021) 23588000",
+      "bankWebsite": "https://www.bca.co.id",
+      "bankLogo": "bca"
+    },
+    {
+      "bankName": "Bank Negara Indonesia (BNI)",
+      "bankTelp": "(021) 2510077",
+      "bankWebsite": "https://www.bni.co.id",
+      "bankLogo": "bni"
+    },
+    {
+      "bankName": "Bank CIMB Niaga",
+      "bankTelp": "(021) 2505555",
+      "bankWebsite": "https://www.cimbniaga.co.id",
+      "bankLogo": "cimniaga"
+    },
+    {
+      "bankName": "Bank Danamon",
+      "bankTelp": "(021) 23588000",
+      "bankWebsite": "https://www.danamon.co.id",
+      "bankLogo": "danamon"
+    },
+    {
+      "bankName": "Bank Tabungan Negara (BTN)",
+      "bankTelp": "(021) 6330251",
+      "bankWebsite": "https://www.btn.co.id",
+      "bankLogo": "BTN"
+    },
+    {
+      "bankName": "Bank Mega",
+      "bankTelp": "(021) 79175000",
+      "bankWebsite": "https://www.bankmega.com",
+      "bankLogo": "bank mega"
+    },
+    {
+      "bankName": "Bank UOB Indonesia",
+      "bankTelp": "(021) 23528888",
+      "bankWebsite": "https://www.uob.co.id",
+      "bankLogo": "bank UOB"
+    },
+    {
+      "bankName": "Bank OCBC NISP",
+      "bankTelp": "(021) 26518888",
+      "bankWebsite": "https://www.ocbcnisp.com",
+      "bankLogo": "OCBC"
+    }
+]
