@@ -15,7 +15,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imgIcon"
+            android:id="@+id/bankLogo"
             android:layout_width="64dp"
             android:layout_height="64dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +31,7 @@
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imgIcon"
+            app:layout_constraintStart_toEndOf="@+id/bankLogo"
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.appcompat.widget.AppCompatTextView
