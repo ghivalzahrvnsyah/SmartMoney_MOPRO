@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.d3if3020.smartmoney.view.MainFragment"
+        android:label="SmartMoney" >
+        <action
+            android:id="@+id/action_mainFragment_to_addDataFragment2"
+            app:destination="@id/addDataFragment2" />
+        <action
+            android:id="@+id/action_mainFragment_to_addPengeluaranFragment"
+            app:destination="@id/addPengeluaranFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDataFragment2"
+        android:name="com.d3if3020.smartmoney.view.AddPemasukanFragment"
+        android:label="Masukkan Data Pemasukan" >
+        <action
+            android:id="@+id/action_addDataFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_addDataFragment2_to_pemasukanFragment"
+            app:destination="@id/pemasukanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPengeluaranFragment"
+        android:name="com.d3if3020.smartmoney.view.AddPengeluaranFragment"
+        android:label="Masukkan Data Pengeluaran" >
+        <action
+            android:id="@+id/action_addPengeluaranFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_addPengeluaranFragment_to_pengeluaranFragment"
+            app:destination="@id/pengeluaranFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.d3if3020.smartmoney.view.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/pengeluaranFragment"
+        android:name="com.d3if3020.smartmoney.view.PengeluaranFragment"
+        android:label="fragment_pengeluaran"
+        tools:layout="@layout/fragment_pengeluaran" />
+    <fragment
+        android:id="@+id/pemasukanFragment"
+        android:name="com.d3if3020.smartmoney.view.PemasukanFragment"
+        android:label="fragment_pemasukan"
+        tools:layout="@layout/fragment_pemasukan" />
+</navigation>
