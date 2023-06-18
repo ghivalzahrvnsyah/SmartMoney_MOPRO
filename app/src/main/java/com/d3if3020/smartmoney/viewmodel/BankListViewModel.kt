@@ -27,9 +27,10 @@ class BankListViewModel: ViewModel() {
                 val result = BankListApi.service.getBankList()
                 Log.d("BankListViewModel", "Success: $result")
                 data.postValue(result)
-                myAdapter.notifyDataSetChanged() // Tambahkan ini
+                status.postValue(ApiStatus.SUCCESS)
             } catch (e: Exception) {
                 Log.d("BankListViewModel", "Failure: ${e.message}")
+                status.postValue(ApiStatus.FAILED)
             }
         }
     }
