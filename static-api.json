@@ -1,0 +1,5 @@
+[
+   {"bankName":"Bank Mandiri", "bankTelp" : "(021) 52997777", "bankWebsite" : "https://www.bankmandiri.co.id","bankLogo" :"mandiri"},
+   {"bankName":"Bank Rakyat Indonesia (BRI)", "bankTelp" : "(021) 2510244", "bankWebsite" : "https://www.bri.co.id","bankLogo" :"Bank Rakyat Indonesia"},
+   {"bankName":"Bank Central Asia (BCA)", "bankTelp" : "(021) 23588000", "bankWebsite" : "https://www.bca.co.id","bankLogo" :"bca"}
+]
