@@ -49,6 +49,7 @@ class BankListFragment : Fragment() {
         viewModel.getStatus().observe(viewLifecycleOwner, { status ->
             updateProgress(status)
         })
+        viewModel.scheduleUpdater(requireActivity().application)
     }
 
     private fun updateProgress(status: ApiStatus) {
